@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 	<?php
 		require('../controllers/Cars.php');
-		$cars_controller = new Cars();
+		//$cars_controller = new Cars();
 	?>
 <title>Index Page</title>
 </head>
