@@ -9,14 +9,10 @@
 		public $car_colour;
 		
 		function __construct() {
-    		$car = new Car();							// create a car object
-			$car->set_make('MERCEDES-BENZ');			// set car make
-			$car->set_model('EQA');						// set car model
-			$car->set_colour('MOUNTAIN GREY');			// set car colour
-			
-			$car_make = $car1->get_make();				// set variable car_make to make of car
-			$car_model = $car1->get_model();			// set variable car_model to model of car
-			$car_colour = $car1->get_colour();			// set variable car_colour to colour of car
+    		$this->car = new Car();							// create a car object
+			$this->car->set_make('MERCEDES-BENZ');			// set car make
+			$this->car->set_model('EQA');						// set car model
+			$this->car->set_colour('MOUNTAIN GREY');			// set car colour
   		}
 
 		// Methods
