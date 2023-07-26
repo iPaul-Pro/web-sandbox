@@ -7,8 +7,9 @@
 
 <body>
 	<p>
-		CAR FORM<br><br>
+		<h1>CAR FORM</h1>
 		Use this form to change the details of the car.<br><br>
+		<h2>CAR DETAILS</h2>
 		<form action="#update_car" target="_self" method="get">
 			<label for="make">Make:</label><br>
 			<input type="text" id="make" name="make"><br><br>
