@@ -16,5 +16,6 @@ session_start();
 		$_SESSION["favanimal"] = "cat";
 		echo "Session variables are set.";
 	?>
+	<p>Go to <a href="demo-session2.php">Demo Session - Page 2</a></p>
 </body>
 </html>
