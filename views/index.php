@@ -15,7 +15,7 @@
 	<p>
 		Hello World!<br><br>My name is Paul.<br><br>
 		My new car is a <?php echo $car1->get_make() ." ". $car1->get_model() ." in ". $car1->get_colour() ."." ?><br><br>
-		Go to <a href="">Car form</a>
+		Go to <a href="car-form.php">Car form</a>
 	</p>
 </body>
 </html>
